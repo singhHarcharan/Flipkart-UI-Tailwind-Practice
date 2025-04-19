@@ -1,10 +1,13 @@
+
 export default function Navbar() {
     return (
         <div className="flex flex-row p-4 border-1 border-pink-100 shadow-md">
             <div className="cursor-pointer ml-30 text-2xl font-bold">Flipkart</div>
             <input placeholder="  Search for products, brands and more" className="rounded-md border-1 w-145 h-8 ml-15 bg-pink-50" />
             <div className="right-sided-items flex justify-end items-end space-x-2">
-                <div className="cursor-pointer ml-10 border-1 border-transparent hover:border-black hover:bg-pink-50 rounded-md p-1">Harcharanpreet Singh</div>
+                <div className="cursor-pointer ml-10 border-1 border-transparent hover:border-black hover:bg-pink-50 rounded-md p-1 flex flex-row">
+                    Harcharanpreet Singh
+                </div>
                 <div className="cursor-pointer ml-10 border-1 border-transparent hover:border-black hover:bg-pink-50 rounded-md p-1">Cart</div>
 
                 <div className="cursor-pointer ml-10 border-1 border-transparent hover:border-black hover:bg-pink-50 rounded-md p-1">Become a seller</div>
